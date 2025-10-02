@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> HOME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #eef2f3, #dfe9f3);
+      color: #333;
+    }
+
+   
+     header {
+      background: #1e3c72;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      height: 60px;
+      transition: transform 0.4s;
+    }
+
+    header img:hover {
+      transform: rotate(5deg) scale(1.1);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd57;
+      transform: scale(1.1);
+    }
+
+    #img1 {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-bottom: 5px solid #1e3c72;
+    }
+ header #logo {
+      height: 60px;
+      width: auto;
+      max-width: 150px;
+      transition: transform 0.4s;
+    }
+
+    header #logo:hover {
+      transform: rotate(10deg) scale(1.1);
+    }
+    table {
+      width: 50%;
+      margin: 0 auto 50px auto;
+      border-collapse: collapse;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    
+
+    td {
+      padding: 15px;
+    }
+
+    td:first-child {
+      background: #f4f4f4;
+      font-weight: bold;
+      color: #1e3c72;
+      text-transform: capitalize;
+    }
+
+    table img {
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    table img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    footer span {
+      color: #ffdd57;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      table {
+        font-size: 14px;
+      }
+      table img {
+        width: 100px;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="erasebg-transformed.png">
+      <img src="erasebg-transformed.png" alt="IT Faculty Logo">
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <img src="fac.jpg.JPG" alt="Faculty Image" id="img1">
+
+  <table>
+    
+    <tr>
+     <td> labs</td>
+      <td><img src="lab.jpg" width="300" height="200" alt="Lab 1"></td>
+      <td><img src="lab2.jpeg" width="300" height="200" alt="Lab 2"></td>
+      <td><img src="lab3.jpeg" width="300" height="200" alt="Lab 3"></td>
+    </tr>
+    <tr>
+      <td>Halls</td>
+      <td><img src="hall.jpg" width="300" height="200" alt="Hall 1"></td>
+      <td><img src="halls2.jpg" width="300" height="200" alt="Hall 2"></td>
+      <td><img src="hall3 (2).jpg" width="300" height="200" alt="Hall 3"></td>
+    </tr>
+    <tr>
+      <td>Library</td>
+      <td><img src="lib.jpg" width="300" height="200" alt="Library 1"></td>
+      <td><img src="lib2.jpeg" width="300" height="200" alt="Library 2"></td>
+      <td><img src="lib3.PNG" width="300" height="200" alt="Library 3"></td>
+    </tr>
+  </table>
+
+   <footer>
+            <p style = "font-size: 15px; text-align: center" > copyright &copy; 2024 al zawia IT faculty <br>suha albakoush & nour alakak</p>
+        </footer>
+</body>
+</html>
